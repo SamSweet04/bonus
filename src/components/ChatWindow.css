@@ -1,0 +1,65 @@
+/* ChatWindow.css */
+
+.chat-window {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1; /* Adjust color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.chat-window h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Text color */
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.messages div {
+    margin-bottom: 10px;
+}
+
+.messages div strong {
+    color: #3498db; /* Sender's name color */
+}
+
+/* Add a simple scrollbar for the messages container */
+.messages {
+    overflow-y: auto;
+    max-height: 300px; /* Adjust the max-height as needed */
+}
+/* ChatWindow.css */
+
+/* ... (existing styles) */
+
+.message-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+.message-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.message-input button {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.message-input button:hover {
+    background-color: #2980b9;
+}
+
